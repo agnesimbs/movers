@@ -5,6 +5,9 @@ from django.views.generic import TemplateView
 #def homePageView(request):
 #	return HttpResponse("Hello Agnes")
 class HomePageView(TemplateView):
-	template_name='home.html'
+
+	template_name='pages/index.html'
+
 class AboutPageView(TemplateView):
-	template_name='about.html'
+
+	template_name='pages/about.html'
